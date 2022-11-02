@@ -1,7 +1,6 @@
 import speech_recognition as sr
 import pyttsx3
 
-from Jarvis.features import date_time
 from Jarvis.features import launch_app
 from Jarvis.features import website_open
 from Jarvis.features import weather
@@ -67,13 +66,9 @@ class JarvisAssistant:
 
     def tell_me_date(self):
 
-        return date_time.date()
 
-    def tell_time(self):
 
-        return date_time.time()
 
-    def launch_any_app(self, path_of_app):
         """
         Launch any windows application 
         :param path_of_app: path of exe 
