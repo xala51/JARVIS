@@ -79,7 +79,7 @@ class JarvisAssistant:
         :param path_of_app: path of exe 
         :return: True is success and open the application, False if fail
         """
-        return launch_app.launch_app(path_of_app)
+        
 
     def website_opener(self, domain):
         """
